@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Product.delete_all
+
+# . . .
+
+Product.create!(title: 'Design and build Great Web APIs',
+  description: %{<p>Loren ipsum loren ipsum loren ipsum</p>},
+  image_url: 'maapis.jpg',
+  price: 24.95)
+# . . .
