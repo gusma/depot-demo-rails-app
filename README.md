@@ -1,0 +1,1 @@
+# depot-demo-rails-app
